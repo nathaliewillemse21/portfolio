@@ -6,3 +6,22 @@
     padding: 0%;
     border: border-box;
 }
+.navbar{
+    background-color: rgb(104, 9, 104);
+}
+img[alt="logo"]{
+    width:10rem
+ 
+}
+
+/*
+.container{
+    background-color: rgb(236, 151, 236);
+
+}
+@keyframes
+.display{
+  @import url'https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Permanent+Marker&family=Sacramento&display=swap';
+  font-family: 'Anton';
+}*/
+
