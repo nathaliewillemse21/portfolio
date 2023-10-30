@@ -10,8 +10,10 @@
     background-color: rgb(104, 9, 104);
 }
 img[alt="logo"]{
-    width:10rem
- 
+    width: 5rem;
+}
+body{background-repeat: repeat;
+    height: 100vh;
 }
 
 /*
