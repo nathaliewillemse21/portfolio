@@ -11,7 +11,7 @@ img[alt='logo'] {
   width: 5rem;
 }
 body {
-  background-image: url('https://i.postimg.cc/vm1sc4hM/laptopbg.png');
+  background-image: url('https://i.postimg.cc/W3XTsP5C/laptopbg.jpg');
   background-repeat: repeat;
   height: 100vh;
 }
@@ -19,15 +19,73 @@ img[alt='school'] {
   width: 100px;
 }
 img[alt='projects']{
-    width: 5rem;
+    width: 200px;
+    height: 200px;
+}
+/* landing */
+img[alt='landing']{
+ width: 200px ;
+  height: 300px;
+}
+
+#about
+{
+box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(155, 61, 147, 0.5);}
+
+
+     #skills{
+     box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(155, 61, 147, 0.5);}
+
+
+
+  #education{
+     box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(155, 61, 147, 0.5);}
+
+     #testimonials{
+      box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+      backdrop-filter: blur(1rem);
+      border: 1px solid-transparent;
+      background-color: rgba(155, 61, 147, 0.5);}
+
+      #contact{
+        box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+        backdrop-filter: blur(1rem);
+        border: 1px solid-transparent;
+        background-color: rgba(155, 61, 147, 0.5);}
+
+        #projects{
+          box-shadow: 0 0 2rem 0 rgb(226, 6, 197);
+          backdrop-filter: blur(1rem);
+          border: 1px solid-transparent;
+          background-color: rgba(155, 61, 147, 0.5);}
+   
+ img[alt='testimonials']{
+  width: 100px;
+  height: 100px;
+ }
+
+
+     #projects{
+      display: flex;
+     }
+.card-body{
+  width: fit-content;
 }
 
 
-/* #sect1 {
-  border: 1px solid;
-  width: 100%;
-  height: 714px;
-} */
+
+.row{
+  display: flex;
+}
 
 .animate {
   font-family: 'Anton';
@@ -54,29 +112,13 @@ img[alt='projects']{
 .container-background {
   background-color: rgb(104, 9, 104);
 }
-/* testimonials */
 
-/* end */
-img[alt='testimonials'] {
-    margin: 0%;
-    padding: 0%;
-}
- 
+
 
 @keyframes textclip {
   to {
-    background-position: 200% center;
-    
-  }
+    background-position: 200% center;}
+
+  
 }
 
-/*
-.container{
-    background-color: rgb(236, 151, 236);
-
-}
-@keyframes
-.display{
-  @import url'https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Permanent+Marker&family=Sacramento&display=swap';
-  font-family: 'Anton';
-}*/
