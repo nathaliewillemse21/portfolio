@@ -70,11 +70,7 @@ img[alt='skills']{
 }
 
 
-/* projects */
-/* img[alt='projects']{
-    width: 200PX;
-    height: 200PX; 
-}*/
+
 #project{
      box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
      backdrop-filter: blur(1rem);
@@ -89,14 +85,6 @@ img[alt='skills']{
 }
 
 
-
-/* eduction 
-#education{
-     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(90, 62, 97, 0.5);
-}*/
 
 /* testimonials */
 img[alt='testimonials']{
@@ -157,7 +145,7 @@ img[alt='testimonials']{
 .container-background {
   background-color: rgb(104, 9, 104);
 }
-/* testimonials */
+
 
 /* end */
 img[alt='testimonials'] {
