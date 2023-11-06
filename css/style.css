@@ -4,14 +4,19 @@
   padding: 0%;
   border: border-box;
 }
+
 .navbar {
-  background-color: rgb(104, 9, 104);
+  background-color: rgb(15, 7, 15);
 }
-img[alt='logo'] {
-  width: 5rem;
-}
+/* body */
+
+
+
+
+
 body {
-  background-image: url('https://i.postimg.cc/vm1sc4hM/laptopbg.png');
+  background-image: url('https://i.postimg.cc/sXxy561N/download.jpg');
+ 
   background-repeat: repeat;
   height: 100vh;
 }
@@ -23,11 +28,109 @@ img[alt='projects']{
 }
 
 
-/* #sect1 {
-  border: 1px solid;
-  width: 100%;
-  height: 714px;
-} */
+/* landing */
+img[alt='landing'] {
+    float: left;
+  width: 300px;
+  height: 400px;
+}
+.container-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/* About section */
+img[alt='about']{
+    width: 350px;
+    height: 350px;
+}
+#about{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}
+
+
+/* skills section */
+img[alt='skills']{
+    width: 300px;
+    height: 300px;
+}
+#skills{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}
+
+
+/* projects */
+/* img[alt='projects']{
+    width: 200PX;
+    height: 200PX; 
+}*/
+#project{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}
+.card-body{
+    box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+    backdrop-filter: blur(2rem);
+    border: 1px solid-transparents;
+    background-color:rgba(90, 62, 97, 0.5);
+}
+
+
+
+/* eduction 
+#education{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}*/
+
+/* testimonials */
+img[alt='testimonials']{
+    width: 350px;
+    height: 500px;
+}
+#testimonials{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}
+
+/* contact */
+#contact{
+     box-shadow: 0 0 2rem 0 rgb(237, 137, 248);
+     backdrop-filter: blur(1rem);
+     border: 1px solid-transparent;
+     background-color: rgba(90, 62, 97, 0.5);
+}
+
+
+
+
+
+
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 .animate {
   font-family: 'Anton';
@@ -70,13 +173,12 @@ img[alt='testimonials'] {
   }
 }
 
-/*
-.container{
-    background-color: rgb(236, 151, 236);
+
+@media screen and (width < 700px) {
+    .about-content{
+        overflow-y: scroll;
+        height: 5rem;
+        scroll-snap-type: y mandatory;
+    }
 
 }
-@keyframes
-.display{
-  @import url'https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Permanent+Marker&family=Sacramento&display=swap';
-  font-family: 'Anton';
-}*/
